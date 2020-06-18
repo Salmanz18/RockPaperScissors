@@ -183,7 +183,7 @@ main::before {
 }
 
 .big-text {
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 0 20px;
   line-height: 0.8;
   text-transform: uppercase;
@@ -192,5 +192,11 @@ main::before {
 @media (max-width: 2000px) {
   .go-down {
     order: 1;
+  }
+}
+
+@media (max-width: 515px) {
+  .go-down {
+    order: 0;
   }
 }
