@@ -167,6 +167,7 @@ main::before {
 
 .selection {
   display: none;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -186,4 +187,10 @@ main::before {
   margin: 0 0 20px;
   line-height: 0.8;
   text-transform: uppercase;
+}
+
+@media (max-width: 2000px) {
+  .go-down {
+    order: 1;
+  }
 }
